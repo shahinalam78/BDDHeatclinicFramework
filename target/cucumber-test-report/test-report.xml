@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="128.610635">
+<testcase classname="Heatclinic e-commerce Login Functionality" name="1. Valid user valid password" time="16.233279">
+<system-out><![CDATA[Given As a not validated user...............................................passed
+When Browse to the url "http://heatclinic.shiftedtech.com/".................passed
+Then Heatclinic home page should show.......................................passed
+When User click login link..................................................passed
+And Enter "iivaan@shiftedtech.com" as emaill address........................passed
+And Enter "shiftedtech" as password.........................................passed
+And Click login Button......................................................passed
+And Welcome message shows "Iftekhar"........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Heatclinic e-commerce Login Functionality" name="1. Valid user valid password 2" time="23.487752">
+<system-out><![CDATA[Given As a not validated user...............................................passed
+When Browse to the url "http://heatclinic.shiftedtech.com/".................passed
+Then Heatclinic home page should show.......................................passed
+When User click login link..................................................passed
+And Enter "shagor77@gmail.com" as emaill address............................passed
+And Enter "shagor" as password..............................................passed
+And Click login Button......................................................passed
+And Welcome message shows "ben".............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Heatclinic e-commerce Login Functionality" name="1. Valid user valid password 3" time="16.013873">
+<system-out><![CDATA[Given As a not validated user...............................................passed
+When Browse to the url "http://heatclinic.shiftedtech.com/".................passed
+Then Heatclinic home page should show.......................................passed
+When User click login link..................................................passed
+And Enter "mdalam7841@gmail.com" as emaill address..........................passed
+And Enter "shift786" as password............................................passed
+And Click login Button......................................................passed
+And Welcome message shows "MD"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Heatclinic e-commerce Login Functionality" name="2. Invalid user valid password" time="10.384545">
+<system-out><![CDATA[Given As a not validated user...............................................passed
+When Browse to the url "http://heatclinic.shiftedtech.com/".................passed
+Then Heatclinic home page should show.......................................passed
+When User click login link..................................................passed
+And Enter "iivaann@shiftedtech.com" as emaill address.......................passed
+And Enter "shiftedtech" as password.........................................passed
+And Click login Button......................................................passed
+Then Invalid email or password message display..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Heatclinic e-commerce Login Functionality" name="2. Invalid user valid password 2" time="10.47361">
+<system-out><![CDATA[Given As a not validated user...............................................passed
+When Browse to the url "http://heatclinic.shiftedtech.com/".................passed
+Then Heatclinic home page should show.......................................passed
+When User click login link..................................................passed
+And Enter "shagor77&@gmail.com" as emaill address...........................passed
+And Enter "shagor" as password..............................................passed
+And Click login Button......................................................passed
+Then Invalid email or password message display..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Heatclinic e-commerce Login Functionality" name="2. Invalid user valid password 3" time="11.139721">
+<system-out><![CDATA[Given As a not validated user...............................................passed
+When Browse to the url "http://heatclinic.shiftedtech.com/".................passed
+Then Heatclinic home page should show.......................................passed
+When User click login link..................................................passed
+And Enter "mdalam784111@gmail.com" as emaill address........................passed
+And Enter "shift786" as password............................................passed
+And Click login Button......................................................passed
+Then Invalid email or password message display..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Heatclinic e-commerce Login Functionality" name="3. valid user Invalid password" time="10.275746">
+<system-out><![CDATA[Given As a not validated user...............................................passed
+When Browse to the url "http://heatclinic.shiftedtech.com/".................passed
+Then Heatclinic home page should show.......................................passed
+When User click login link..................................................passed
+And Enter "iivaan@shiftedtech.com" as emaill address........................passed
+And Enter "shiftedtechh" as password........................................passed
+And Click login Button......................................................passed
+Then Invalid email or password message display..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Heatclinic e-commerce Login Functionality" name="3. valid user Invalid password 2" time="11.723501">
+<system-out><![CDATA[Given As a not validated user...............................................passed
+When Browse to the url "http://heatclinic.shiftedtech.com/".................passed
+Then Heatclinic home page should show.......................................passed
+When User click login link..................................................passed
+And Enter "shagor77@gmail.com" as emaill address............................passed
+And Enter "shagorr" as password.............................................passed
+And Click login Button......................................................passed
+Then Invalid email or password message display..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Heatclinic e-commerce Login Functionality" name="3. valid user Invalid password 3" time="18.878608">
+<system-out><![CDATA[Given As a not validated user...............................................passed
+When Browse to the url "http://heatclinic.shiftedtech.com/".................passed
+Then Heatclinic home page should show.......................................passed
+When User click login link..................................................passed
+And Enter "mdalam7841@gmail.com" as emaill address..........................passed
+And Enter "shift7866" as password...........................................passed
+And Click login Button......................................................passed
+Then Invalid email or password message display..............................passed
+]]></system-out>
+</testcase>
+</testsuite>

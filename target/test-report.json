@@ -1,0 +1,1542 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 192441800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "As a not validated user",
+            "match": {
+              "location": "HeatclinicLoginSteps.as_a_not_validated_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 929448300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browse to the url \"http://heatclinic.shiftedtech.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://heatclinic.shiftedtech.com/",
+                  "offset": 19
+                }
+              ],
+              "location": "HeatclinicLoginSteps.browse_to_the_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 183956900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Heatclinic home page should show",
+            "match": {
+              "location": "HeatclinicLoginSteps.heatclinic_home_page_should_show()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4399018600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "1. Valid user valid password",
+        "description": "",
+        "id": "heatclinic-e-commerce-login-functionality;1.-valid-user-valid-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 6921451300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1987032500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click login link",
+            "match": {
+              "location": "HeatclinicLoginSteps.user_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 304743900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter \"iivaan@shiftedtech.com\" as emaill address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iivaan@shiftedtech.com",
+                  "offset": 7
+                }
+              ],
+              "location": "HeatclinicLoginSteps.enter_as_emaill_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 235194300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter \"shiftedtech\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shiftedtech",
+                  "offset": 7
+                }
+              ],
+              "location": "HeatclinicLoginSteps.enter_as_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 904869800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click login Button",
+            "match": {
+              "location": "HeatclinicLoginSteps.click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 175121500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Welcome message shows \"Iftekhar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Iftekhar",
+                  "offset": 23
+                }
+              ],
+              "location": "HeatclinicLoginSteps.welcome_message_shows(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@DD"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 707690700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "As a not validated user",
+            "match": {
+              "location": "HeatclinicLoginSteps.as_a_not_validated_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1772616200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browse to the url \"http://heatclinic.shiftedtech.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://heatclinic.shiftedtech.com/",
+                  "offset": 19
+                }
+              ],
+              "location": "HeatclinicLoginSteps.browse_to_the_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 231866000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Heatclinic home page should show",
+            "match": {
+              "location": "HeatclinicLoginSteps.heatclinic_home_page_should_show()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8603107600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "1. Valid user valid password",
+        "description": "",
+        "id": "heatclinic-e-commerce-login-functionality;1.-valid-user-valid-password;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 8203876600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2016422000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click login link",
+            "match": {
+              "location": "HeatclinicLoginSteps.user_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 533542000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter \"shagor77@gmail.com\" as emaill address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shagor77@gmail.com",
+                  "offset": 7
+                }
+              ],
+              "location": "HeatclinicLoginSteps.enter_as_emaill_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 261752100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter \"shagor\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shagor",
+                  "offset": 7
+                }
+              ],
+              "location": "HeatclinicLoginSteps.enter_as_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 667037600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click login Button",
+            "match": {
+              "location": "HeatclinicLoginSteps.click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 489841100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Welcome message shows \"ben\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ben",
+                  "offset": 23
+                }
+              ],
+              "location": "HeatclinicLoginSteps.welcome_message_shows(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@DD"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 63621300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "As a not validated user",
+            "match": {
+              "location": "HeatclinicLoginSteps.as_a_not_validated_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1033452400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browse to the url \"http://heatclinic.shiftedtech.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://heatclinic.shiftedtech.com/",
+                  "offset": 19
+                }
+              ],
+              "location": "HeatclinicLoginSteps.browse_to_the_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 325820700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Heatclinic home page should show",
+            "match": {
+              "location": "HeatclinicLoginSteps.heatclinic_home_page_should_show()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3620831800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "1. Valid user valid password",
+        "description": "",
+        "id": "heatclinic-e-commerce-login-functionality;1.-valid-user-valid-password;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 7615264100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1787549500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click login link",
+            "match": {
+              "location": "HeatclinicLoginSteps.user_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 218261000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter \"mdalam7841@gmail.com\" as emaill address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mdalam7841@gmail.com",
+                  "offset": 7
+                }
+              ],
+              "location": "HeatclinicLoginSteps.enter_as_emaill_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 221964500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter \"shift786\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shift786",
+                  "offset": 7
+                }
+              ],
+              "location": "HeatclinicLoginSteps.enter_as_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 979775100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click login Button",
+            "match": {
+              "location": "HeatclinicLoginSteps.click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147332900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Welcome message shows \"MD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MD",
+                  "offset": 23
+                }
+              ],
+              "location": "HeatclinicLoginSteps.welcome_message_shows(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@DD"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 86002400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "As a not validated user",
+            "match": {
+              "location": "HeatclinicLoginSteps.as_a_not_validated_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 951065300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browse to the url \"http://heatclinic.shiftedtech.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://heatclinic.shiftedtech.com/",
+                  "offset": 19
+                }
+              ],
+              "location": "HeatclinicLoginSteps.browse_to_the_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 195281100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Heatclinic home page should show",
+            "match": {
+              "location": "HeatclinicLoginSteps.heatclinic_home_page_should_show()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3316809900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "2. Invalid user valid password",
+        "description": "",
+        "id": "heatclinic-e-commerce-login-functionality;2.-invalid-user-valid-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3548044500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 992609500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click login link",
+            "match": {
+              "location": "HeatclinicLoginSteps.user_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 267585000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Enter \"iivaann@shiftedtech.com\" as emaill address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iivaann@shiftedtech.com",
+                  "offset": 7
+                }
+              ],
+              "location": "HeatclinicLoginSteps.enter_as_emaill_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 193673700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Enter \"shiftedtech\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shiftedtech",
+                  "offset": 7
+                }
+              ],
+              "location": "HeatclinicLoginSteps.enter_as_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 657617800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Click login Button",
+            "match": {
+              "location": "HeatclinicLoginSteps.click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 175855600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Invalid email or password message display",
+            "match": {
+              "location": "HeatclinicLoginSteps.invalid_email_or_password_message_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@DD"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 117059600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "As a not validated user",
+            "match": {
+              "location": "HeatclinicLoginSteps.as_a_not_validated_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 992014600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browse to the url \"http://heatclinic.shiftedtech.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://heatclinic.shiftedtech.com/",
+                  "offset": 19
+                }
+              ],
+              "location": "HeatclinicLoginSteps.browse_to_the_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188388000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Heatclinic home page should show",
+            "match": {
+              "location": "HeatclinicLoginSteps.heatclinic_home_page_should_show()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3142462300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "2. Invalid user valid password",
+        "description": "",
+        "id": "heatclinic-e-commerce-login-functionality;2.-invalid-user-valid-password;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 3385545500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1256713300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click login link",
+            "match": {
+              "location": "HeatclinicLoginSteps.user_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 253628600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Enter \"shagor77\u0026@gmail.com\" as emaill address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shagor77\u0026@gmail.com",
+                  "offset": 7
+                }
+              ],
+              "location": "HeatclinicLoginSteps.enter_as_emaill_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 178121500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Enter \"shagor\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shagor",
+                  "offset": 7
+                }
+              ],
+              "location": "HeatclinicLoginSteps.enter_as_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 777526500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Click login Button",
+            "match": {
+              "location": "HeatclinicLoginSteps.click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 182150200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Invalid email or password message display",
+            "match": {
+              "location": "HeatclinicLoginSteps.invalid_email_or_password_message_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@DD"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 67910700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "As a not validated user",
+            "match": {
+              "location": "HeatclinicLoginSteps.as_a_not_validated_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1050340100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browse to the url \"http://heatclinic.shiftedtech.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://heatclinic.shiftedtech.com/",
+                  "offset": 19
+                }
+              ],
+              "location": "HeatclinicLoginSteps.browse_to_the_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 171994100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Heatclinic home page should show",
+            "match": {
+              "location": "HeatclinicLoginSteps.heatclinic_home_page_should_show()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3407762100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "2. Invalid user valid password",
+        "description": "",
+        "id": "heatclinic-e-commerce-login-functionality;2.-invalid-user-valid-password;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 3490216700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1466548000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click login link",
+            "match": {
+              "location": "HeatclinicLoginSteps.user_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 498377600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Enter \"mdalam784111@gmail.com\" as emaill address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mdalam784111@gmail.com",
+                  "offset": 7
+                }
+              ],
+              "location": "HeatclinicLoginSteps.enter_as_emaill_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 219641900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Enter \"shift786\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shift786",
+                  "offset": 7
+                }
+              ],
+              "location": "HeatclinicLoginSteps.enter_as_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 592318500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Click login Button",
+            "match": {
+              "location": "HeatclinicLoginSteps.click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174611200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Invalid email or password message display",
+            "match": {
+              "location": "HeatclinicLoginSteps.invalid_email_or_password_message_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@DD"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 294504200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "As a not validated user",
+            "match": {
+              "location": "HeatclinicLoginSteps.as_a_not_validated_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 922642800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browse to the url \"http://heatclinic.shiftedtech.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://heatclinic.shiftedtech.com/",
+                  "offset": 19
+                }
+              ],
+              "location": "HeatclinicLoginSteps.browse_to_the_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 190417700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Heatclinic home page should show",
+            "match": {
+              "location": "HeatclinicLoginSteps.heatclinic_home_page_should_show()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3334037500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "3. valid user Invalid password",
+        "description": "",
+        "id": "heatclinic-e-commerce-login-functionality;3.-valid-user-invalid-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3353011800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1212432900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User click login link",
+            "match": {
+              "location": "HeatclinicLoginSteps.user_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 231002200,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Enter \"iivaan@shiftedtech.com\" as emaill address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iivaan@shiftedtech.com",
+                  "offset": 7
+                }
+              ],
+              "location": "HeatclinicLoginSteps.enter_as_emaill_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 181047400,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Enter \"shiftedtechh\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shiftedtechh",
+                  "offset": 7
+                }
+              ],
+              "location": "HeatclinicLoginSteps.enter_as_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 403669800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Click login Button",
+            "match": {
+              "location": "HeatclinicLoginSteps.click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152979300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Invalid email or password message display",
+            "match": {
+              "location": "HeatclinicLoginSteps.invalid_email_or_password_message_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 36,
+            "name": "@DD"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 166252800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "As a not validated user",
+            "match": {
+              "location": "HeatclinicLoginSteps.as_a_not_validated_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 869235100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browse to the url \"http://heatclinic.shiftedtech.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://heatclinic.shiftedtech.com/",
+                  "offset": 19
+                }
+              ],
+              "location": "HeatclinicLoginSteps.browse_to_the_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 163086500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Heatclinic home page should show",
+            "match": {
+              "location": "HeatclinicLoginSteps.heatclinic_home_page_should_show()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3989444300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "3. valid user Invalid password",
+        "description": "",
+        "id": "heatclinic-e-commerce-login-functionality;3.-valid-user-invalid-password;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 3913226400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1240319900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User click login link",
+            "match": {
+              "location": "HeatclinicLoginSteps.user_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 572988000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Enter \"shagor77@gmail.com\" as emaill address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shagor77@gmail.com",
+                  "offset": 7
+                }
+              ],
+              "location": "HeatclinicLoginSteps.enter_as_emaill_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185678200,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Enter \"shagorr\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shagorr",
+                  "offset": 7
+                }
+              ],
+              "location": "HeatclinicLoginSteps.enter_as_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 462151800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Click login Button",
+            "match": {
+              "location": "HeatclinicLoginSteps.click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161117600,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Invalid email or password message display",
+            "match": {
+              "location": "HeatclinicLoginSteps.invalid_email_or_password_message_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 36,
+            "name": "@DD"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 732628900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "As a not validated user",
+            "match": {
+              "location": "HeatclinicLoginSteps.as_a_not_validated_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2046205600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browse to the url \"http://heatclinic.shiftedtech.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://heatclinic.shiftedtech.com/",
+                  "offset": 19
+                }
+              ],
+              "location": "HeatclinicLoginSteps.browse_to_the_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 179625800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Heatclinic home page should show",
+            "match": {
+              "location": "HeatclinicLoginSteps.heatclinic_home_page_should_show()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9237322200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "3. valid user Invalid password",
+        "description": "",
+        "id": "heatclinic-e-commerce-login-functionality;3.-valid-user-invalid-password;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 3489331300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1879396500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User click login link",
+            "match": {
+              "location": "HeatclinicLoginSteps.user_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 323633000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Enter \"mdalam7841@gmail.com\" as emaill address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mdalam7841@gmail.com",
+                  "offset": 7
+                }
+              ],
+              "location": "HeatclinicLoginSteps.enter_as_emaill_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 187431100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Enter \"shift7866\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shift7866",
+                  "offset": 7
+                }
+              ],
+              "location": "HeatclinicLoginSteps.enter_as_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 490013600,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Click login Button",
+            "match": {
+              "location": "HeatclinicLoginSteps.click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 313020100,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Invalid email or password message display",
+            "match": {
+              "location": "HeatclinicLoginSteps.invalid_email_or_password_message_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 36,
+            "name": "@DD"
+          }
+        ]
+      }
+    ],
+    "name": "Heatclinic e-commerce Login Functionality",
+    "description": "",
+    "id": "heatclinic-e-commerce-login-functionality",
+    "keyword": "Feature",
+    "uri": "HeateclinicLoginWithDataDriven.feature"
+  }
+]
